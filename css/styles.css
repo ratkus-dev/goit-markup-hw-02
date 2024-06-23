@@ -136,19 +136,22 @@ input:focus {
 .header-contacts {
 }
 
-.header-logo,
-.footer-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.header-logo-color,
+.header-logo-color {
+  color: #2e2f42;
+}
+
 .footer-logo-color {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .nav {
@@ -291,10 +294,6 @@ input:focus {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-logo {
-  color: #f4f4fd;
 }
 
 .footer-text {
