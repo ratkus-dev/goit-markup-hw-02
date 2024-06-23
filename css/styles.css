@@ -325,9 +325,9 @@ input:focus {
 .portfolio-item-content {
   padding: 32px 16px;
   background-color: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  /*border-bottom: 1px solid #e7e9fc;*/
+  /*border-left: 1px solid #e7e9fc;*/
+  /*border-right: 1px solid #e7e9fc;*/
   min-height: 120px;
 }
 
