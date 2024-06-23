@@ -132,10 +132,6 @@ input:focus {
   color: #2e2f42;
 }
 
-.header-content,
-.header-contacts {
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -152,9 +148,6 @@ input:focus {
 
 .footer-logo-color {
   color: #f4f4fd;
-}
-
-.nav {
 }
 
 .nav-menu {
@@ -205,15 +198,6 @@ input:focus {
   text-align: center;
   color: #ffffff;
   margin: 0 auto 48px;
-}
-
-.features {
-}
-
-.features-list {
-}
-
-.features-item {
 }
 
 .features-item:not(:last-child) {
