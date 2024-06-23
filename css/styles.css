@@ -112,19 +112,22 @@ input:focus {
 .btn {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
   background-color: #4d5ae5;
   transition: background-color 0.4s ease-in-out;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .section-title {
   font-weight: 700;
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -187,9 +190,6 @@ input:focus {
   background: #2e2f42;
 }
 
-.hero-content {
-}
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -197,7 +197,6 @@ input:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  margin: 0 auto 48px;
 }
 
 .features-item:not(:last-child) {
@@ -210,7 +209,6 @@ input:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .features-description {
