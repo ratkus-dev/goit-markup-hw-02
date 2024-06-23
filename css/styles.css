@@ -103,12 +103,6 @@ a {
   color: currentColor;
 }
 
-textarea:focus,
-select:focus,
-input:focus {
-  outline: 0;
-}
-
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -120,7 +114,10 @@ input:focus {
   transition: background-color 0.4s ease-in-out;
 }
 
-.btn:hover,
+.btn:hover {
+  background-color: #404bbf;
+}
+
 .btn:focus {
   background-color: #404bbf;
 }
@@ -170,8 +167,14 @@ input:focus {
   transition: color 0.4s ease-in-out;
 }
 
-.nav-menu-link:hover,
-.nav-menu-link:focus,
+.nav-menu-link:hover {
+  color: #404bbf;
+}
+
+.nav-menu-link:focus {
+  color: #404bbf;
+}
+
 .nav-menu-link.is-active {
   color: #404bbf;
 }
@@ -182,7 +185,10 @@ input:focus {
   transition: color 0.4s ease-in-out;
 }
 
-.header-contacts-link:hover,
+.header-contacts-link:hover  {
+  color: #404bbf;
+}
+
 .header-contacts-link:focus {
   color: #404bbf;
 }
