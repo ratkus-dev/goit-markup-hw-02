@@ -81,7 +81,7 @@ video {
   font: inherit;
   font-size: 100%;
   margin: 0;
-  padding: 0;
+  /*padding: 0;*/
   vertical-align: baseline;
 }
 
@@ -284,10 +284,10 @@ input:focus {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /*box-shadow:*/
+  /*  0 2px 1px 0 rgba(46, 47, 66, 0.08),*/
+  /*  0 1px 1px 0 rgba(46, 47, 66, 0.16),*/
+  /*  0 1px 6px 0 rgba(46, 47, 66, 0.08);*/
 }
 
 .team-item-content {
@@ -323,7 +323,7 @@ input:focus {
 }
 
 .portfolio-item-content {
-  padding: 32px 16px;
+  /*padding: 32px 16px;*/
   background-color: #ffffff;
   /*border-bottom: 1px solid #e7e9fc;*/
   /*border-left: 1px solid #e7e9fc;*/
